@@ -7,6 +7,7 @@ export interface Extension {
   description: string;
   status: ExtensionStatus;
   storeUrl: string;
+  tags: string[];
 }
 
 export interface AppProduct {
@@ -21,32 +22,32 @@ export const extensions: Extension[] = [
   {
     id: "hoverray",
     name: "HoverRay by MaheeX: Instant Link Preview & Reader",
-    // TODO: write a one-line description
-    description: "TODO: one-line description",
-    // TODO: set to "published" or "under-review"
-    status: "tbd",
+    description:
+      "Hover over a link to see a small preview card with the page title, description, image and estimated reading time, plus a plain-language check of the address.",
+    status: "published",
     storeUrl:
       "https://chromewebstore.google.com/detail/cnbmicikknpgmncjedhpifdjommodghj",
+    tags: ["Link previews", "Reading mode", "Address checks"],
   },
   {
     id: "all-in-one-pdf-image-tool",
-    name: "All-in-One PDF & Image Tool",
-    // TODO: write a one-line description
-    description: "TODO: one-line description",
-    // TODO: set to "published" or "under-review"
-    status: "tbd",
+    name: "All-in-One PDF & Image Toolkit",
+    description:
+      "Merge, split, compress and convert PDFs and images from your browser, without uploading your files to a server.",
+    status: "published",
     storeUrl:
       "https://chromewebstore.google.com/detail/nbigenlhenhkoipfnnpdnpdfcfjgfoif",
+    tags: ["Merge & split", "Compress", "Convert", "OCR"],
   },
   {
     id: "tabstash",
     name: "TabStash: Minimalist Tab Manager",
-    // TODO: write a one-line description
-    description: "TODO: one-line description",
-    // TODO: set to "published" or "under-review"
-    status: "tbd",
+    description:
+      "Stash your open tabs into named sessions with one click and restore them whenever you need them. Sessions stay in your browser's local storage.",
+    status: "published",
     storeUrl:
       "https://chromewebstore.google.com/detail/ckcekpajmkahkhofeafhlehhppeaanki",
+    tags: ["Stash sessions", "Search", "Export & import JSON"],
   },
 ];
 
