@@ -4,8 +4,7 @@ export const siteConfig = {
   tagline: "Browser extensions, apps and free online tools",
   description:
     "MaheeX is a small brand building Chrome extensions, apps and free browser-based tools.",
-  // TODO: put your real contact email here
-  contactEmail: "TODO-your-email@example.com",
+  contactEmail: "hello@maheex.tech",
   locale: "en",
 } as const;
 
